@@ -22,4 +22,4 @@ mkdir -p ~/.vim/undodir
 git clone https://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim
 git clone https://github.com/neeerveless/vim_conf.git
 cp ~/vim_conf/.vim* ~/
-cp ~/vim_conf/colors ~/.vim
+cp -r ~/vim_conf/colors ~/.vim
